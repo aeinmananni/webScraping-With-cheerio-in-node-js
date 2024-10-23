@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "analyzing": "nodemon JS/analyzing-html-data.js",
+    "download-html": "nodemon --watch index.html  --watch JS/download-from-html-file.js JS/download-from-html-file.js",
+     "reading-html-from-url":"nodemon JS/reading-html-file-from-url.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.7.7",
     "cheerio": "^1.0.0"
   }
 }
