@@ -5,7 +5,8 @@
   "scripts": {
     "analyzing": "nodemon JS/analyzing-html-data.js",
     "download-html": "nodemon --watch index.html  --watch JS/download-from-html-file.js JS/download-from-html-file.js",
-     "reading-html-from-url":"nodemon JS/reading-html-file-from-url.js"
+     "reading-html-from-url":"nodemon JS/reading-html-file-from-url.js",
+     "accessing-and-selecting-elements":"nodemon --watch index.html  --watch JS/accessing-and-selecting-elements.js JS/accessing-and-selecting-elements.js"
   },
   "keywords": [],
   "author": "",
