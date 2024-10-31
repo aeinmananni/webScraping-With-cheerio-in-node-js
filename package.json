@@ -8,7 +8,8 @@
      "reading-html-from-url":"nodemon JS/reading-html-file-from-url.js",
      "accessing-and-selecting-elements":"nodemon --watch index.html  --watch JS/accessing-and-selecting-elements.js JS/accessing-and-selecting-elements.js",
      "navigation-in-the-dom":"nodemon --watch index.html  --watch JS/navigation-in-the-dom.js JS/navigation-in-the-dom.js",
-     "find-the-elements-upwards":"nodemon --watch index.html  --watch JS/find-the-elements-upwards.js JS/find-the-elements-upwards.js"
+     "find-the-elements-upwards":"nodemon --watch index.html  --watch JS/find-the-elements-upwards.js JS/find-the-elements-upwards.js",
+     "side-scrolling-elements":"nodemon --watch index.html  --watch JS/side-scrolling-elements.js JS/side-scrolling-elements.js"
     },
   "keywords": [],
   "author": "",
