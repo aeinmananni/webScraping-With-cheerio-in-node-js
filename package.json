@@ -12,7 +12,8 @@
      "side-scrolling-elements":"nodemon --watch index.html  --watch JS/side-scrolling-elements.js JS/side-scrolling-elements.js",
      "manipulate-dom":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/manipulate-dom.js JS/manipulate-dom-elements/manipulate-dom.js",
      "change-attributes-and-properties":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/change-attributes-and-properties.js JS/manipulate-dom-elements/change-attributes-and-properties.js",
-     "add-and-remove-elements-in-dom":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js"
+     "add-and-remove-elements-in-dom":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js",
+     "practical-project":"nodemon --watch index.html  --watch JS/practical-project/practical-project.js JS/practical-project/practical-project.js"
     },
   "keywords": [],
   "author": "",
