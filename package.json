@@ -5,23 +5,25 @@
   "scripts": {
     "analyzing": "nodemon JS/analyzing-html-data.js",
     "download-html": "nodemon --watch index.html  --watch JS/download-from-html-file.js JS/download-from-html-file.js",
-     "reading-html-from-url":"nodemon JS/reading-html-file-from-url.js",
-     "accessing-and-selecting-elements":"nodemon --watch index.html  --watch JS/accessing-and-selecting-elements.js JS/accessing-and-selecting-elements.js",
-     "navigation-in-the-dom":"nodemon --watch index.html  --watch JS/navigation-in-the-dom.js JS/navigation-in-the-dom.js",
-     "find-the-elements-upwards":"nodemon --watch index.html  --watch JS/find-the-elements-upwards.js JS/find-the-elements-upwards.js",
-     "side-scrolling-elements":"nodemon --watch index.html  --watch JS/side-scrolling-elements.js JS/side-scrolling-elements.js",
-     "manipulate-dom":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/manipulate-dom.js JS/manipulate-dom-elements/manipulate-dom.js",
-     "change-attributes-and-properties":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/change-attributes-and-properties.js JS/manipulate-dom-elements/change-attributes-and-properties.js",
-     "add-and-remove-elements-in-dom":"nodemon --watch index.html  --watch JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js",
-     "practical-project1":"nodemon --watch index.html  --watch JS/practical-project/practical-project1.js JS/practical-project/practical-project1.js",
-     "practical-project2":"nodemon --watch index.html  --watch JS/practical-project/practical-project2.js JS/practical-project/practical-project2.js"
-    },
+    "reading-html-from-url": "nodemon JS/reading-html-file-from-url.js",
+    "accessing-and-selecting-elements": "nodemon --watch index.html  --watch JS/accessing-and-selecting-elements.js JS/accessing-and-selecting-elements.js",
+    "navigation-in-the-dom": "nodemon --watch index.html  --watch JS/navigation-in-the-dom.js JS/navigation-in-the-dom.js",
+    "find-the-elements-upwards": "nodemon --watch index.html  --watch JS/find-the-elements-upwards.js JS/find-the-elements-upwards.js",
+    "side-scrolling-elements": "nodemon --watch index.html  --watch JS/side-scrolling-elements.js JS/side-scrolling-elements.js",
+    "manipulate-dom": "nodemon --watch index.html  --watch JS/manipulate-dom-elements/manipulate-dom.js JS/manipulate-dom-elements/manipulate-dom.js",
+    "change-attributes-and-properties": "nodemon --watch index.html  --watch JS/manipulate-dom-elements/change-attributes-and-properties.js JS/manipulate-dom-elements/change-attributes-and-properties.js",
+    "add-and-remove-elements-in-dom": "nodemon --watch index.html  --watch JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js JS/manipulate-dom-elements/add-and-remove-elements-in-dom.js",
+    "practical-project1": "nodemon --watch index.html  --watch JS/practical-project/practical-project1.js JS/practical-project/practical-project1.js",
+    "practical-project2": "nodemon --watch index.html  --watch JS/practical-project/practical-project2.js JS/practical-project/practical-project2.js",
+    "scrolling-processing-pages": "nodemon --watch index.html  --watch JS/practical-project/scrolling-processing-pages.js JS/practical-project/scrolling-processing-pages.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "axios": "^1.7.7",
-    "cheerio": "^1.0.0"
+    "cheerio": "^1.0.0",
+    "puppeteer-core": "^23.8.0"
   }
 }
